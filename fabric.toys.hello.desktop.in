@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Hello (Fabric'd) World
+Exec=@bindir@/hello
