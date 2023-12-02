@@ -25,7 +25,7 @@ configure_file(
   input: 'fabric.toys.hello.desktop.in',
   output: 'fabric.toys.hello.desktop',
   configuration: conf,
-  install_dir: join_paths(get_option('sysconfdir'), 'xdg/autostart')
+  install_dir: join_paths(get_option('datadir'), 'applications'),
 )
 
 # Call subdirs
