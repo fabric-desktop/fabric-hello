@@ -3,7 +3,7 @@ using Fabric;
 namespace Fabric.Toys.Hello {
 	class MainLayout : UI.ScrollingPage {
 		construct {
-			header.label = "Hello";
+			add_header("Hello");
 			var label = new Gtk.Label("Hello, World!") {
 				hexpand = true,
 				vexpand = true,
